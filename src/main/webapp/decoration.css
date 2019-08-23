@@ -1,0 +1,48 @@
+@charset "UTF-8";
+body{
+	margin:auto;
+	width:75%
+}
+fieldset {
+  margin: auto;
+  width: 90%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+  text-align:center;
+}
+fieldset legend{
+	text-align:left;
+}
+fieldset input[type=button],fieldset input[type=submit]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: auto;
+  cursor: pointer;
+}
+input[type=button]:hover {color:#4CAF50;background-color: #ffcc00;}
+fieldset input[type=submit]:hover {color:#4CAF50;background-color: #ffcc00;}
+
+h1, h2, h3 {
+	text-align: center;
+}
+a:link {color:#73AD21;text-decoration:none;}
+a:visited {color:#73AD21;text-decoration:none;}
+a:hover {color:#ffcc00;}
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+
+th, td {
+  text-align: left;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
